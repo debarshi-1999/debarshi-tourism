@@ -1,0 +1,102 @@
+<html>
+    <head>
+        <title>D-Tourism|Home</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="{{url_for('static', filename='anim.css')}}">
+    </head>
+    <body style="background-color: rgb(37, 36, 36);">
+                
+         <!-- carousel -->
+         <div class="container-fluid" style="background-color: rgb(37, 36, 36);">
+
+         <div id="demo" class="carousel slide" data-ride="carousel" style="width: 100%;">
+
+            <!-- Indicators -->
+            <ul class="carousel-indicators">
+              <li data-target="#demo" data-slide-to="0" class="active"></li>
+              <li data-target="#demo" data-slide-to="1"></li>
+              <li data-target="#demo" data-slide-to="2"></li>
+            </ul>
+            
+            <!-- The slideshow -->
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="{{url_for('static', filename='kolkata.jpg')}}" alt="Los Angeles" width="100%" height="550">
+                <div class="carousel-caption">
+                    <h1 style="font-family: 'Times New Roman', Times, serif;">KOLKATA</h1>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="{{url_for('static', filename='delhi.jpg')}}" alt="Chicago" width="100%" height="550">
+                <div class="carousel-caption">
+                    <h1 style="font-family: 'Times New Roman', Times, serif;">DELHI</h1>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="{{url_for('static', filename='kerala.jpg')}}" alt="New York" width="100%" height="550">
+                <div class="carousel-caption">
+                    <h1 style="font-family: 'Times New Roman', Times, serif;">KERALA</h1>
+                </div>
+              </div>
+            </div>
+
+            <!-- navbar -->
+            <div class="navig" style="width: 100%;">
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Contact</a>
+                <div class="profile">
+                    <a href="#">Profile <span><i class="fa fa-caret-down"></i></span></a>
+                </div>
+            </div>
+            <!-- navbar ends -->
+          </div>
+        </div>
+        
+        <div class="head" style="width: 100%;padding: 20px;"> 
+            <h1 style="font-family: Georgia, 'Times New Roman', Times, serif;">Below are the descriptions of the places..</h1>
+            <h3 style="font-family: Georgia, 'Times New Roman', Times, serif;font-style: italic;">Check them out</h3>
+        </div>
+         
+
+        <div class="container1 block1">
+            <div class="img"id="img1">
+                <img class="my-img" src="https://www.tripsavvy.com/thmb/vOsVUgkBhTmj3lntYNu-qBswRVM=/3668x2751/smart/filters:no_upscale()/victoria-memorial--kolkata--india-1140726002-95549087f08e4bafb44c1a71179a8ceb.jpg">
+            </div>
+            <div class="txt">
+                <p>
+                Paragraphs can contain many different kinds of information. A paragraph could contain a series of brief examples or a single long illustration of a general point. It might describe a place, character, or process; narrate a series of events; compare or contrast two or more things; classify items into categories; or describe causes and effects. Regardless of the kind of information they contain, all paragraphs share certain characteristics. One of the most important of these is a topic sentence.
+                </p>
+                <button class="button1 left">Read More</button>
+            </div>
+        </div>
+        <div class="container1 block2">
+            <div class="txt">
+                <p>
+                Paragraphs can contain many different kinds of information. A paragraph could contain a series of brief examples or a single long illustration of a general point. It might describe a place, character, or process; narrate a series of events; compare or contrast two or more things; classify items into categories; or describe causes and effects. Regardless of the kind of information they contain, all paragraphs share certain characteristics. One of the most important of these is a topic sentence.
+                </p>
+                <button class="button1 right">Read More</button>
+            </div>
+            <div class="img" id="img2">
+                <img class="my-img" src="https://cdn.getyourguide.com/img/location/533591d4b943b.jpeg/88.jpg">
+            </div>
+        </div>
+        <div class="container1 block3">
+            <div class="img"id="img3">
+                <img class="my-img" src="https://cdn.audleytravel.com/3355/2397/79/1016846-alleppey-backwaters-kerala.jpg">
+            </div>
+            <div class="txt">
+                <p>
+                Paragraphs can contain many different kinds of information. A paragraph could contain a series of brief examples or a single long illustration of a general point. It might describe a place, character, or process; narrate a series of events; compare or contrast two or more things; classify items into categories; or describe causes and effects. Regardless of the kind of information they contain, all paragraphs share certain characteristics. One of the most important of these is a topic sentence.
+                </p>
+                <button class="button1 left">Read More</button>
+            </div>
+        </div>
+    </body>
+</html>
