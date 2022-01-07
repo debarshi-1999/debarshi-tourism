@@ -1,0 +1,232 @@
+.my-img{
+    width:400px;
+    height:200px;
+    padding: 10px;
+}
+p{
+    font-size: 17px;
+    color: white;
+}
+.container1{
+    display: flex;
+    padding: 15px;
+    margin: 10px;
+    border-collapse: collapse;
+    border-radius: 10px;
+}
+.img 
+{
+    border-collapse: collapse;
+    width: 450px;
+    height: 200px;
+    background-color: rgba(227, 233, 233, 0.685);
+    box-shadow: 0 0 20px rgb(189, 183, 183);
+}
+/* .container1:hover .img .my-img{
+    box-shadow: 0 0 20px rgb(189, 183, 183);
+} */
+.txt{
+    padding: 10px;
+    /* width: 500px; */
+    font-size: 20px;
+    /* display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden; */
+}
+.block1:hover,.block2:hover,.block3:hover{
+    background-color:rgb(31, 29, 29);
+    border: 1px solid rgb(238, 99, 6);
+    box-shadow: 0 0 10px rgb(238, 99, 6);
+    transition: background-color 0.3s ease-in-out;
+}
+/* .block1:hover #img1 img{
+    width:400px;
+    height: 200px;
+    transition: all 0.3s ease-in-out;
+}
+.block2:hover #img2 img{
+    width:400px;
+    height: 200px;
+    transition: all 0.3s ease-in-out;
+}
+.block3:hover #img3 img{
+    width:400px;
+    height: 200px;
+    transition: all 0.3s ease-in-out;
+} */
+/* .block1:hover .txt p{
+    font-weight: 200;
+    color: white;
+    transition: all 0.3s ease-in-out;
+}
+.block2:hover .txt p{
+    font-weight: 200;
+    color: white;
+    transition: all 0.3s ease-in-out;
+}
+.block3:hover .txt p{
+    font-weight: 200;
+    color: white;
+    transition: all 0.3s ease-in-out;
+} */
+.left{
+    float: right;
+    position: absolute;
+    right: 100px;
+}
+.right{
+    float: left;
+    position: absolute;
+    left: 70px;
+}
+.button1{
+    width: 150px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    background-image: linear-gradient(to right,rgb(44, 44, 211),rgb(181, 109, 230));
+}
+.container1:hover .txt .button1{
+    background-image: linear-gradient(to right,#ff5722,#ff9800);
+}
+.button1:hover{
+    box-shadow: 0 0 20px rgb(238, 99, 6);
+}
+.button1:focus{
+    outline: none;
+}
+.navig{
+    display: flex;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+.navig a{
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    padding: 22px;
+}
+.navig a:hover{
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    padding: 22px;
+    border-radius: 5px;
+    background-color: white;
+    opacity: 0.5;
+    transition: all 0.3s ease-in-out;
+}
+.profile a{
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+}
+.profile{
+    margin-left: auto;
+    padding: 22px;
+}
+.carousel-caption{
+    background-color: rgb(41, 38, 38);
+    opacity: 0.6;
+}
+.head{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: rgb(241, 238, 234);
+    box-shadow: 0 5px 5px rgb(189, 183, 183);
+    background-color: rgb(37, 36, 36);
+}
+@media screen and (max-width: 500px)
+{
+    .img{
+        width:150px;
+        height: 100px;
+    }
+    .my-img{
+        width: 150px;
+        height: 100px;
+    }
+    .container1:hover .txt .button1{
+        background-image: linear-gradient(to right,green,yellow);
+        box-shadow: 0 0 2px greenyellow;
+    }
+
+    .txt p{
+        font-size: 7px;
+    }
+    .txt{
+        padding: 5px;
+    }
+    .button1{
+        width: 60px;
+        height: 25px;
+        border: none;
+        border-radius: 5px;
+        font-size: 9px;
+        background-image: linear-gradient(to right,rgb(44, 44, 211),rgb(181, 109, 230));
+    }
+    .container1{
+        display: flex;
+        padding: 10px;
+        margin: 5px;
+        border-collapse: collapse;
+        border-radius: 10px;
+    }
+    .left{
+        float: right;
+        position: absolute;
+        right: 30px;
+    }
+    .right{
+        float: left;
+        position: absolute;
+        left: 20px;
+    }
+    .carousel,.carousel-item img{
+        height: 300px;
+    }
+    .head{
+        padding: 10px;
+    }
+    .head h1{
+        font-size: 20px;
+    }
+    .head h3{
+        font-size: 15px;
+    }
+    .navig{
+        display: flex;
+        position: absolute;
+        top: 5px;
+        left: 5px;
+    }
+    .navig a{
+        font-size: 12px;
+        text-decoration: none;
+        color: white;
+        padding: 10px;
+    }
+    .navig a:hover{
+        font-size: 12px;
+        text-decoration: none;
+        color: black;
+        padding: 10px;
+        border-radius: 5px;
+        background-color: white;
+        opacity: 0.5;
+        transition: all 0.3s ease-in-out;
+    }
+    .profile a{
+        font-size: 12px;
+        text-decoration: none;
+        color: white;
+    }
+    .profile{
+        margin-left: auto;
+        padding: 10px;
+    }
+
+}
